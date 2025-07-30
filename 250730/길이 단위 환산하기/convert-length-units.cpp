@@ -5,7 +5,12 @@ using namespace std;
 int main() {
     // Please write your code here.
     double n;
+    
     cin >> n;
-    cout << round(n*30.48*10)/10;
+    cout << fixed;
+    cout.precision(1);
+
+    cout << n* 30.48;
+
     return 0;
 }
