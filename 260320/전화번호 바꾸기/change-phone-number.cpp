@@ -4,11 +4,14 @@ using namespace std;
 
 int main() {
     // Please write your code here.
-    string a, x, y;
-    char d1, d2;
+    string s;
+    cin >> s;
 
-    cin >> a >> d1 >> x >> d2 >> y;
-    cout << a << d1 << y << d2 << x;
+    string a = s.substr(0,3); //010
+    string x = s.substr(4,4); //1234
+    string y = s.substr(9,4); //5678
     
+    cout << a << "-" << y << "-" << x;
+
     return 0;
 }
