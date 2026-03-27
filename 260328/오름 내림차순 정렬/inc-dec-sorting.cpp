@@ -21,7 +21,7 @@ int main() {
         cout << nums[i]<<" ";
     }
     cout << "\n";
-    sort(nums,nums+8,greater<int>());
+    sort(nums,nums+n,greater<int>());
     for(int i=0;i<n;i++){
         cout << nums[i] << " ";
     }
