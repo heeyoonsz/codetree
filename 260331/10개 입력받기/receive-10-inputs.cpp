@@ -10,17 +10,14 @@ int main() {
 
     for(int i=0;i<10;i++) {
         cin >> arr[i];
+        
+        if(arr[i]==0) break; // 바로탈출 ..
+        
         sum += arr[i];
-        if(arr[i]==0){
-            cnt--;
-            cout << fixed << setprecision(1) << sum << " " << double(sum/i);
-            break;
-        }
+        cnt++;
     }
 
-
-
-
+    cout << fixed << setprecision(1) << sum << " " << double(sum/cnt);
 
     return 0;
 }
