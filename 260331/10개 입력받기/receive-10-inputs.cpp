@@ -17,7 +17,7 @@ int main() {
         cnt++;
     }
 
-    cout << fixed << setprecision(1) << sum << " " << double(sum/cnt);
+    cout << sum << " " << fixed << setprecision(1) << (double)sum/cnt;
 
     return 0;
 }
