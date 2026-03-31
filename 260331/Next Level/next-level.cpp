@@ -24,12 +24,12 @@ int main() {
     cin >> user2_id >> user2_level;
 
     // 첫번째 객체("codetree", 10으로 초기화)
-    format acc = format("codetree", 10);
+    format acc1 = format("codetree", 10);
     // 두번째 객체 (입력받은 값으로 초기화)
     format acc2 = format(user2_id, user2_level);
 
     cout << "user " << acc1.account << " lv " << acc1.account_level << endl;
     cout << "user " << acc2.account << " lv " << acc2.account_level << endl;
-    
+
     return 0;
 }
