@@ -10,7 +10,7 @@ int main() {
         cin >> arr[i];
         cnt++;
         if(arr[i]==0){
-            cout << "0 input" ;
+            // cout << "0 input" ;
             cnt --;
             break;
         
