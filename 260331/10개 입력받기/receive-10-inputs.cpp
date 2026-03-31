@@ -14,6 +14,7 @@ int main() {
         if(arr[i]==0){
             cnt--;
             cout << fixed << setprecision(1) << sum << " " << double(sum/i);
+            break;
         }
     }
 
